@@ -144,12 +144,17 @@ a {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
+    width: fit-content;
   }
 
   .header-links:hover .nav-menu:before {
     display: none; 
   }
 
+  .nav-menu li:hover {
+    padding-left: 0;
+  }
+  
   .nav-menu {
     display: block;
     color: #C5C9AC
@@ -171,3 +176,9 @@ a {
   }
 }
 /* header section */
+
+/* hero section */
+
+
+
+/* hero section */
