@@ -20,3 +20,154 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* header section */
+.header {
+  background-color: #121316E5;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.logo-icon {
+  width: 28px;
+}
+
+.header-links {
+  position: relative;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.header-links:hover .nav-menu {
+  display: block;
+  position: absolute;
+  background-color: gray;
+  width: 120px;
+  color: #C5C9AC;
+  padding: 10px;
+  top: 20px;
+}
+
+.header-links:hover .nav-menu:before {
+  content: "";
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent gray transparent;
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+
+.nav-menu li {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 3px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-menu li:hover {
+  padding-left: 5px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-free-pass {
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  color: #a4de02;
+  border: 1px solid #a4de02;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 24px 0px #CAF30040;
+}
+
+.user-avatar img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #444;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    font-size: 24px;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  .header-links {
+    position: static;
+  }
+
+  .header-links:hover .nav-menu {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .header-links:hover .nav-menu:before {
+    display: none; 
+  }
+
+  .nav-menu {
+    display: block;
+    color: #C5C9AC
+    
+  }
+
+  .nav-links {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+
+  .nav-links li {
+    margin-right: 15px;
+  }
+
+  .btn-free-pass {
+    font-size: 15px;
+  }
+}
+/* header section */
