@@ -42,7 +42,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 50px;
 }
 
 .logo {
@@ -133,7 +133,7 @@ a {
 
 @media (min-width: 992px) {
   .logo {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .hamburger-icon {
@@ -176,8 +176,12 @@ a {
     margin-right: 15px;
   }
 
+  .nav-links li a {
+    font-size: 12px;
+  }
+
   .btn-free-pass {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 /* header section */
@@ -406,6 +410,15 @@ a {
   .hero-buttons a {
     flex-grow: 1;
   }
+
+  .hero-badge {
+    font-size: 12px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -438,6 +451,10 @@ a {
     justify-content: center; 
   }
 
+  .hero-description {
+    max-width: 540px;
+  }
+
   .hero-image-wrapper {
     max-width: 35%;
     display: flex;
@@ -455,7 +472,7 @@ a {
   }
 
   .hero-title {
-    font-size: 64px;
+    font-size: 60px;
   }
   
   .stat-number, .stat-icon-title {
