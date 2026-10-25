@@ -544,3 +544,180 @@ a {
   }
 }
 /*  Features Ticker Bar  */
+
+/* Specialized Programs Section */
+.programs-section {
+  padding: 40px 0;
+  background-color: #121316;
+  color: #fff;
+}
+
+.section-header-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.section-badge {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #CAF300;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.section-main-title {
+  font-family: "Anton", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.section-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: #C5C9AC;
+  line-height: 1.6;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.program-card {
+  background-color: #1F1F23;
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.program-img-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.program-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.program-card:hover .program-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.program-content {
+  padding: 20px 20px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.program-tag-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.program-tag {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #CAF300;
+  background-color: #343538;
+  padding: 3px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+
+.program-tag-row i {
+  color: #C5C9AC;
+  font-size: 1rem;
+}
+
+.program-title {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.program-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.80rem;
+  color: #C5C9AC;
+  line-height: 1.5;
+}
+
+.program-footer {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #8F9378;
+}
+
+.program-explore {
+  color: #a4de02;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (min-width: 640px) {
+  .section-main-title {
+    font-size: 2.8rem;
+  }
+
+  .section-badge {
+    font-size: 12px;
+  }
+
+  .title-br {
+    display: none;
+  }
+
+  .programs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .section-header-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section-desc {
+    max-width: 35%;
+  }
+
+  .section-main-title {
+    font-size: 3rem;
+  }
+
+  .programs-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .program-title {
+    font-size: 2rem;
+  }
+}
+/* Specialized Programs Section */
