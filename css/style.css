@@ -65,7 +65,7 @@ a {
 }
 
 .hamburger-icon {
-  color: #a4de02;
+  color: #CAF300;
 }
 
 .nav-menu {
@@ -112,8 +112,8 @@ a {
 .btn-free-pass {
   font-family: "Inter", sans-serif;
   background-color: transparent;
-  color: #a4de02;
-  border: 1px solid #a4de02;
+  color: #CAF300;
+  border: 1px solid #CAF300;
   padding: 5px;
   font-weight: bold;
   font-size: 12px;
@@ -203,7 +203,7 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 600;
-  color: #a4de02;
+  color: #CAF300;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -215,7 +215,7 @@ a {
 .dot {
   width: 8px;
   height: 8px;
-  background-color: #a4de02;
+  background-color: #CAF300;
   border-radius: 50%;
 }
 
@@ -249,7 +249,7 @@ a {
 }
 
 .btn-primary {
-  background-color: #a4de02;
+  background-color: #CAF300;
   color: #121316;
   padding: 14px 20px;
   font-weight: 500;
@@ -284,7 +284,7 @@ a {
 }
 
 .btn-secondary i {
-  color: #a4de02;
+  color: #CAF300;
 }
 
 .hero-image-wrapper {
@@ -329,7 +329,7 @@ a {
 }
 
 .status-optimal {
-  color: #a4de02;
+  color: #CAF300;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -346,8 +346,8 @@ a {
 
 .progress-fill {
   height: 100%;
-  background-color: #a4de02;
-  box-shadow: 0 0 8px #a4de02;
+  background-color: #CAF300;
+  box-shadow: 0 0 8px #CAF300;
 }
 
 .occupancy-footer {
@@ -391,7 +391,7 @@ a {
 }
 
 .stat-icon-title i {
-  color: #a4de02;
+  color: #CAF300;
   font-size: 1rem;
 }
 
@@ -510,7 +510,7 @@ a {
 }
 
 .feature-item i {
-  color: #a4de02;
+  color: #CAF300;
   font-size: 14px;
 }
 
