@@ -1074,7 +1074,6 @@ a {
   flex-direction: column;
   gap: 15px;
   margin-bottom: 30px;
-  /* flex-grow: 1; */
 }
 
 .tier-features-list li {
@@ -1143,3 +1142,192 @@ a {
   }
 }
 /* Membership Tiers Section */
+
+/* Certified Master Coaches & Testimonials Section */
+.coaches-section {
+  padding: 40px 0;
+  background-color: #0D0E11;
+  color: #fff;
+}
+
+.coaches-header {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-right-note {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #8F9378;
+  letter-spacing: 1px;
+}
+
+.coaches-header .section-main-title {
+  font-size: 2.3rem;
+}
+
+.coaches-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.coach-card {
+  background-color: #292A2D;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.coach-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.coach-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.coach-role-badge {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: #121316D9;
+  color: #CAF300;
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.coach-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.coach-name {
+  font-family: "Anton", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.coach-creds {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #8F9378;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.coach-bio {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  color: #C5C9AC;
+  line-height: 1.5;
+}
+
+.testimonial-card {
+  background-color: #292A2D;
+  border-radius: 3px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stars-row {
+  color: #CAF300;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 4px;
+}
+
+.testimonial-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: #E3E2E6;
+  line-height: 1.6;
+  font-style: italic;
+  flex-grow: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  padding-top: 15px;
+}
+
+.author-avatar-box {
+  padding: 5px 10px;
+  background-color: #343538;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-name {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.author-sub {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  color: #8F9378;
+  letter-spacing: 0.5px;
+}
+
+/* --- Responsive Media Queries --- */
+@media (min-width: 800px) {
+  .section-title-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .coaches-header .section-main-title {
+    font-size: 3rem;
+  }
+
+  .coaches-grid {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 80px;
+    column-gap: 20px;
+  }
+}
+/* Certified Master Coaches & Testimonials Section */
