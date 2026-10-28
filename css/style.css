@@ -941,3 +941,205 @@ a {
   }
 }
 /* Facility Highlights Section */
+
+/* Membership Tiers Section */
+.membership-section {
+  padding: 40px 0;
+  background-color: #121316;
+  color: #fff;
+}
+
+.membership-header {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.membership-header .section-badge {
+  margin-bottom: 0;
+}
+
+.membership-header .section-desc {
+  font-size: 0.8rem;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  align-items: stretch;
+}
+
+.membership-card {
+  background-color: #1F1F23;
+  border-radius: 3px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.popular-card {
+  background-color: #292A2D;
+  box-shadow: 0px 0px 32px 0px #CAF3002E;
+}
+
+.most-popular-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #CAF300;
+  color: #121316;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 3px;
+}
+
+.card-top-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 25px;
+}
+
+.tier-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tier-category {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #8F9378;
+  letter-spacing: 1.3px;
+}
+
+.popular-card .tier-category {
+  color: #CAF300;
+}
+
+.flame-icon {
+  color: #CAF300;
+  font-size: 1rem;
+}
+
+.tier-name {
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.tier-price-box {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.price-val {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.popular-card .price-val {
+  color: #CAF300;
+}
+
+.price-duration {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #C5C9AC;
+  letter-spacing: 1px;
+}
+
+.tier-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  /* flex-grow: 1; */
+}
+
+.tier-features-list li {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.4;
+}
+
+.tier-features-list li.included {
+  color: #C5C9AC;
+}
+
+.tier-features-list li.included i {
+  color: #CAF300;
+}
+
+.tier-features-list li.excluded {
+  color: #8F9378;
+}
+
+.tier-action {
+  width: 100%;
+}
+
+.btn-tier {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-tier-secondary {
+  background-color: #343538;
+  color: #fff;
+}
+
+.btn-tier-primary {
+  background-color: #CAF300;
+  color: #171E00;
+}
+
+@media (min-width: 992px) {
+  .membership-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .membership-header .section-desc {
+    align-self: flex-start;
+    max-width: 90%;
+  }
+
+  .popular-card {
+    transform: translateY(-8px);
+  }
+
+  .price-val {
+    font-size: 2.5rem;
+  }
+}
+/* Membership Tiers Section */
