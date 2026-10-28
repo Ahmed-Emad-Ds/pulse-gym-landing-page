@@ -720,3 +720,224 @@ a {
   }
 }
 /* Specialized Programs Section */
+
+/* Facility Highlights Section */
+.facility-section {
+  padding: 40px 0;
+  background-color: #0d0e11;
+  color: #fff;
+}
+
+.facility-header {
+  margin-bottom: 30px;
+}
+
+.break {
+  display: none;
+}
+
+.facility-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.facility-card {
+  background-color: #1f1f23;
+  border-radius: 3px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 2;
+}
+
+.card-badge-row {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #caf300;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-title {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  color: #c5c9ac;
+  line-height: 1.6;
+}
+
+.card-tags-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.sub-tag {
+  background-color: #343538;
+  padding: 3px 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #aaa;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.card-watermark-icon {
+  display: none;
+}
+
+.card-widget {
+  margin-top: 25px;
+  background-color: #1b1b1f;
+  padding: 15px;
+  border-radius: 6px;
+  z-index: 2;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: #c5c9ac;
+  margin-bottom: 10px;
+}
+
+.widget-highlight {
+  color: #caf300;
+  font-weight: 700;
+}
+
+.card-footer-note {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #caf300;
+  letter-spacing: 1px;
+}
+
+.card-metrics-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  z-index: 2;
+}
+
+.metric-box {
+  background-color: #292a2d;
+  padding: 10px;
+  border-radius: 6px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.metric-val {
+  font-family: "Anton", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.metric-box:last-child .metric-val {
+  color: #caf300;
+}
+
+.metric-lbl {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  color: #c5c9ac;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 700px) {
+  .facility-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .break {
+    display: block;
+  }
+
+  .card-watermark-icon {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: -30px;
+    font-size: 140px;
+    color: rgba(255, 255, 255, 0.03);
+    z-index: 1;
+    transform: rotate(45deg);
+  }
+
+  .facility-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-eleiko {
+    grid-column: span 2;
+  }
+
+  .card-inbody {
+    grid-column: span 1;
+  }
+
+  .card-sauna {
+    grid-column: span 1;
+  }
+
+  .card-security {
+    grid-column: span 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-security .card-content {
+    max-width: 55%;
+  }
+
+  .card-security .card-metrics-row {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    max-width: 305px;
+  }
+
+  .card-text {
+    max-width: 350px;
+  }
+}
+/* Facility Highlights Section */
