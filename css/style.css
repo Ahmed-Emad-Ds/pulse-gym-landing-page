@@ -1074,7 +1074,6 @@ a {
   flex-direction: column;
   gap: 15px;
   margin-bottom: 30px;
-  /* flex-grow: 1; */
 }
 
 .tier-features-list li {
