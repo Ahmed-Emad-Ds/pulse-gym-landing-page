@@ -187,7 +187,11 @@ a {
 
 /* hero section */
 .hero {
-  background-image: radial-gradient(80% 60% at 50% -20%, rgba(202, 243, 0, 0.14) 0%, rgba(202, 243, 0, 0) 100%);
+  background-image: radial-gradient(
+    80% 60% at 50% -20%,
+    rgba(202, 243, 0, 0.14) 0%,
+    rgba(202, 243, 0, 0) 100%
+  );
   padding: 40px 0;
   background-color: #0d0e11;
   color: #fff;
@@ -976,7 +980,7 @@ a {
 }
 
 .membership-card {
-  background-color: #1F1F23;
+  background-color: #1f1f23;
   border-radius: 3px;
   padding: 30px;
   display: flex;
@@ -986,8 +990,8 @@ a {
 }
 
 .popular-card {
-  background-color: #292A2D;
-  box-shadow: 0px 0px 32px 0px #CAF3002E;
+  background-color: #292a2d;
+  box-shadow: 0px 0px 32px 0px #caf3002e;
 }
 
 .most-popular-badge {
@@ -995,7 +999,7 @@ a {
   top: -12px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #CAF300;
+  background-color: #caf300;
   color: #121316;
   font-family: "Inter", sans-serif;
   font-size: 10px;
@@ -1022,16 +1026,16 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 600;
-  color: #8F9378;
+  color: #8f9378;
   letter-spacing: 1.3px;
 }
 
 .popular-card .tier-category {
-  color: #CAF300;
+  color: #caf300;
 }
 
 .flame-icon {
-  color: #CAF300;
+  color: #caf300;
   font-size: 1rem;
 }
 
@@ -1059,14 +1063,14 @@ a {
 }
 
 .popular-card .price-val {
-  color: #CAF300;
+  color: #caf300;
 }
 
 .price-duration {
   font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 600;
-  color: #C5C9AC;
+  color: #c5c9ac;
   letter-spacing: 1px;
 }
 
@@ -1087,15 +1091,15 @@ a {
 }
 
 .tier-features-list li.included {
-  color: #C5C9AC;
+  color: #c5c9ac;
 }
 
 .tier-features-list li.included i {
-  color: #CAF300;
+  color: #caf300;
 }
 
 .tier-features-list li.excluded {
-  color: #8F9378;
+  color: #8f9378;
 }
 
 .tier-action {
@@ -1120,8 +1124,8 @@ a {
 }
 
 .btn-tier-primary {
-  background-color: #CAF300;
-  color: #171E00;
+  background-color: #caf300;
+  color: #171e00;
 }
 
 @media (min-width: 992px) {
@@ -1147,7 +1151,7 @@ a {
 /* Certified Master Coaches & Testimonials Section */
 .coaches-section {
   padding: 40px 0;
-  background-color: #0D0E11;
+  background-color: #0d0e11;
   color: #fff;
 }
 
@@ -1167,7 +1171,7 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 11px;
   font-weight: 600;
-  color: #8F9378;
+  color: #8f9378;
   letter-spacing: 1px;
 }
 
@@ -1182,7 +1186,7 @@ a {
 }
 
 .coach-card {
-  background-color: #292A2D;
+  background-color: #292a2d;
   border-radius: 3px;
   overflow: hidden;
   display: flex;
@@ -1206,8 +1210,8 @@ a {
   position: absolute;
   bottom: 15px;
   left: 15px;
-  background-color: #121316D9;
-  color: #CAF300;
+  background-color: #121316d9;
+  color: #caf300;
   font-family: "Inter", sans-serif;
   font-size: 9px;
   font-weight: 500;
@@ -1235,7 +1239,7 @@ a {
   font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 700;
-  color: #8F9378;
+  color: #8f9378;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
 }
@@ -1243,12 +1247,12 @@ a {
 .coach-bio {
   font-family: "Inter", sans-serif;
   font-size: 0.85rem;
-  color: #C5C9AC;
+  color: #c5c9ac;
   line-height: 1.5;
 }
 
 .testimonial-card {
-  background-color: #292A2D;
+  background-color: #292a2d;
   border-radius: 3px;
   padding: 25px;
   display: flex;
@@ -1257,7 +1261,7 @@ a {
 }
 
 .stars-row {
-  color: #CAF300;
+  color: #caf300;
   font-size: 0.9rem;
   display: flex;
   gap: 4px;
@@ -1266,7 +1270,7 @@ a {
 .testimonial-text {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
-  color: #E3E2E6;
+  color: #e3e2e6;
   line-height: 1.6;
   font-style: italic;
   flex-grow: 1;
@@ -1309,7 +1313,7 @@ a {
 .author-sub {
   font-family: "Inter", sans-serif;
   font-size: 9px;
-  color: #8F9378;
+  color: #8f9378;
   letter-spacing: 0.5px;
 }
 
